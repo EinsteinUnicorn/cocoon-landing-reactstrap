@@ -19,88 +19,37 @@ export default function Home() {
         <title>Cocoon</title>
         <link rel="icon" href="/logo.png" />
       </Head>
-      <Container>
-        <h1 class="text-center">
-        <img src="/text.png"/>
-        </h1>
-        <p>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-        <Container>
-          <Row>
-            <Col sm="6">
-              <Card className="my-3">
-                <CardBody>
-                  <CardTitle tag="h5">Documentation</CardTitle>
-                  <CardText>
-                    Find in-depth information about Next.js features and API.
-                  </CardText>
-                  <Button color="primary" href="https://nextjs.org/docs">
-                    More &rarr;
+      <Container >
+        <img src="/SVG/cocoon-text-center-01.png" class="center"/>
+        <img src="/SVG/subtext-centered-01.png" class="center"/>
+        <Container className="sm-container">
+          <Row class="center-text-white" >
+
+            
+            <h5 class = "text-white">the future of communities</h5>
+            <p class = "text-white">launching at activate miami</p>
+            <Container className="sm-container"></Container>
+            <Button color="primary" href="https://twitter.com/CocoonProtocol">
+                    Stay in touch &rarr;
                   </Button>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col sm="6">
-              <Card className="my-3">
-                <CardBody>
-                  <CardTitle tag="h5">Learn</CardTitle>
-                  <CardText>
-                    Learn about Next.js in an interactive course with quizzes!
-                  </CardText>
-                  <Button color="primary" href="https://nextjs.org/learn">
-                    More &rarr;
-                  </Button>
-                </CardBody>
-              </Card>
-            </Col>
+            
           </Row>
-          <Row>
-            <Col sm="6">
-              <Card className="my-3">
-                <CardBody>
-                  <CardTitle tag="h5">Examples</CardTitle>
-                  <CardText>
-                    Discover and deploy boilerplate example Next.js projects.
-                  </CardText>
-                  <Button
-                    color="primary"
-                    href="https://github.com/vercel/next.js/tree/canary/examples"
-                  >
-                    More &rarr;
-                  </Button>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col sm="6">
-              <Card className="my-3">
-                <CardBody>
-                  <CardTitle tag="h5">Deploy</CardTitle>
-                  <CardText>
-                    Instantly deploy your Next.js site to a public URL with
-                    Vercel.
-                  </CardText>
-                  <Button
-                    color="primary"
-                    href="https://vercel.com/new?utm_source=github&utm_medium=example&utm_campaign=next-example"
-                  >
-                    More &rarr;
-                  </Button>
-                </CardBody>
-              </Card>
-            </Col>
-          </Row>
+
         </Container>
+
+        <Container className="bg-container"></Container>
+
+
       </Container>
 
       <footer className="cntr-footer">
         <a
-          href="https://vercel.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
+          href="https://twitter.com/blu3dao"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="sml-logo" />
+          <img src="/blu3daologo.png" alt="Blu3 Dao Logo" className="sml-logo" />
         </a>
       </footer>
     </Container>

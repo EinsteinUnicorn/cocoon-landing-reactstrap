@@ -3,11 +3,35 @@
 
 .md-container {
   max-width: 800px;
-  padding-top: 6rem;
+  padding-top: 10rem;
 }
 
+.sm-container {
+  max-width: 800px;
+  padding-top: 2rem;
+}
+.bg-container{
+  max-width: 800px;
+  padding-top: 8rem;
+
+}
 .bg-pink{
   background-color: #F06C9B;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.center-text-white
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .sml-card {
@@ -25,6 +49,6 @@
 }
 
 .sml-logo {
-  height: 1em;
+  height: 3em;
   margin-left: 10px;
 }
