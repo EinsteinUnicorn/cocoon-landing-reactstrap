@@ -12,14 +12,16 @@ import {
 
 export default function Home() {
   return (
+    <div class = "bg-pink">
     <Container className="md-container">
+      
       <Head>
-        <title><Change></Change></title>
-        <link rel="icon" href="/favicon-32x32.png" />
+        <title>Cocoon</title>
+        <link rel="icon" href="/logo.png" />
       </Head>
       <Container>
-        <h1>
-          Change <a href="https://nextjs.org">Next.js!</a>
+        <h1 class="text-center">
+        <img src="/text.png"/>
         </h1>
         <p>
           Get started by editing <code>pages/index.js</code>
@@ -102,5 +104,6 @@ export default function Home() {
         </a>
       </footer>
     </Container>
+    </div>
   )
 }
